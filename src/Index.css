@@ -1,0 +1,72 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+/* GLOBAL_STYLE */
+
+body {
+	background-color: rgba(226, 226, 226, 0.146);
+}
+
+a {
+	text-decoration: inherit;
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+a:hover {
+	color: #535bf2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+button,
+a {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+/* Custom style */
+.container {
+	max-width: 1920px;
+	padding: 0 75px;
+	margin: 0 auto;
+}
+
+.sections {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.sections__title {
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.sections__desc {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.none {
+	display: none;
+}

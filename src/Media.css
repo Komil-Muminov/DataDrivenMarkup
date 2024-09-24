@@ -1,0 +1,52 @@
+@media screen and (max-width: 1366px) {
+	.cards_item {
+		width: calc((100% - 15px * 2) / 3);
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		padding: 0 50px;
+	}
+
+	.cards_item {
+		width: calc((100% - 15px) / 2);
+	}
+	.card__list {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		padding: 0 30px;
+	}
+
+	.sections {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.sections__title {
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.sections__desc {
+		font-size: 12px;
+		max-width: 110px;
+	}
+
+	.item_price {
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.cards_item {
+		width: calc((100% - 15px) / 2);
+		padding: 18px 5px 28px 5px;
+	}
+	.card__list {
+		padding: 0;
+		gap: 8px;
+	}
+}
